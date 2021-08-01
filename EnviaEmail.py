@@ -3,7 +3,7 @@ import pandas as pd
 import smtplib
 import email.message
 
-tabela_vendas = pd.read_excel('Tabela.xlsx') # importa basede dados
+tabela_vendas = pd.read_excel('Tabela.xlsx') # importa base de dados
 
 pd.set_option('display.max_columns', None) # visualizar a base de dados
 
